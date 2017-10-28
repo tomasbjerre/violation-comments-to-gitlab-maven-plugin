@@ -6,6 +6,6 @@
 **Initial**
 
 
-[908089fda15994b](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/908089fda15994b) Tomas Bjerre *2017-10-28 20:03:55*
+[e6ff26d9674ba88](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/e6ff26d9674ba88) Tomas Bjerre *2017-10-28 20:12:07*
 
 
