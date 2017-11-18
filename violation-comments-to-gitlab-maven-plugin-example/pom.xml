@@ -16,7 +16,7 @@
 			<plugin>
 				<groupId>se.bjurr.violations</groupId>
 				<artifactId>violation-comments-to-gitlab-maven-plugin</artifactId>
-				<version>1.1-SNAPSHOT</version>
+				<version>1.2-SNAPSHOT</version>
 				<configuration>
 					<gitLabUrl>${GITLAB_URL}</gitLabUrl>
 					<mergeRequestId>${GITLAB_MERGEREQUESTID}</mergeRequestId>

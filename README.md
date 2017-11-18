@@ -13,6 +13,8 @@ It supports:
  * [_Checkstyle_](http://checkstyle.sourceforge.net/)
    * [_Detekt_](https://github.com/arturbosch/detekt) with `--output-format xml`.
    * [_ESLint_](https://github.com/sindresorhus/grunt-eslint) with `format: 'checkstyle'`.
+   * [_KTLint_](https://github.com/shyiko/ktlint)
+   * [_SwiftLint_](https://github.com/realm/SwiftLint) with `--reporter checkstyle`.
    * [_PHPCS_](https://github.com/squizlabs/PHP_CodeSniffer) with `phpcs api.php --report=checkstyle`.
  * [_CLang_](https://clang-analyzer.llvm.org/)
    * [_RubyCop_](http://rubocop.readthedocs.io/en/latest/formatters/) with `rubycop -f clang file.rb`
@@ -60,7 +62,7 @@ Here is and example:
 	<plugin>
 		<groupId>se.bjurr.violations</groupId>
 		<artifactId>violation-comments-to-gitlab-maven-plugin</artifactId>
-		<version>1.0</version>
+		<version>1.1</version>
 		<executions>
 			<execution>
 				<id>ViolationCommentsToGitLab</id>
