@@ -6,7 +6,7 @@
 **Bintray**
 
 
-[56848cafd3593cc](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/56848cafd3593cc) Tomas Bjerre *2017-12-05 17:42:03*
+[bfae3dda5105add](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/bfae3dda5105add) Tomas Bjerre *2017-12-05 18:26:52*
 
 
 ## violation-comments-to-gitlab-maven-plugin-1.3
