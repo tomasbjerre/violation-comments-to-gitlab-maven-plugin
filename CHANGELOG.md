@@ -3,6 +3,24 @@
 ## Unreleased
 ### No issue
 
+**Bintray**
+
+
+[56848cafd3593cc](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/56848cafd3593cc) Tomas Bjerre *2017-12-05 17:42:03*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.3
+### No issue
+
+**Doc**
+
+
+[9b6b3f82f45b6d6](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/9b6b3f82f45b6d6) Tomas Bjerre *2017-11-19 12:34:08*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.2
+### No issue
+
 **Doc**
 
 
