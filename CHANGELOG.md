@@ -3,6 +3,29 @@
 ## Unreleased
 ### No issue
 
+**Doc**
+
+
+[8088d888ab3ba43](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/8088d888ab3ba43) Tomas Bjerre *2017-12-07 17:22:22*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.5
+### No issue
+
+**Accepting PMD files without ruleset-tag**
+
+
+[fffc2dbce79ce46](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/fffc2dbce79ce46) Tomas Bjerre *2017-12-07 16:10:53*
+
+**Doc**
+
+
+[7f6c93c5d079c18](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/7f6c93c5d079c18) Tomas Bjerre *2017-12-05 18:34:48*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.4
+### No issue
+
 **Bintray**
 
 
