@@ -3,10 +3,15 @@
 ## Unreleased
 ### No issue
 
+**DocFX**
+
+
+[aa2f059e09ad4b0](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/aa2f059e09ad4b0) Tomas Bjerre *2017-12-21 15:04:19*
+
 **Doc**
 
 
-[8088d888ab3ba43](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/8088d888ab3ba43) Tomas Bjerre *2017-12-07 17:22:22*
+[d399ae9271ea7a9](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/d399ae9271ea7a9) Tomas Bjerre *2017-12-07 17:41:13*
 
 
 ## violation-comments-to-gitlab-maven-plugin-1.5
