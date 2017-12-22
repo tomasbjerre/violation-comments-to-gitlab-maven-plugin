@@ -3,6 +3,20 @@
 ## Unreleased
 ### No issue
 
+**DocFX parsing JSON with Gson, not ScriptEngine**
+
+
+[c5edf8798d16458](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/c5edf8798d16458) Tomas Bjerre *2017-12-22 12:51:55*
+
+**Doc**
+
+
+[f95ad32caa4ba4f](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/f95ad32caa4ba4f) Tomas Bjerre *2017-12-21 15:06:46*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.6
+### No issue
+
 **DocFX**
 
 
