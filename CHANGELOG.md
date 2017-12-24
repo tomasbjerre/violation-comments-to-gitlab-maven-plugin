@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**Removing final from attributes**
+
+
+[352216f324349e1](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/352216f324349e1) Tomas Bjerre *2017-12-24 17:18:26*
+
 **Doc**
 
 
