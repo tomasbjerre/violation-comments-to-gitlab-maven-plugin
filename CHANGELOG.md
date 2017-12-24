@@ -3,6 +3,15 @@
 ## Unreleased
 ### No issue
 
+**Doc**
+
+
+[fb50ecdd8867308](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/fb50ecdd8867308) Tomas Bjerre *2017-12-22 20:05:59*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.8
+### No issue
+
 **Bumping version to fix faulty release**
 
 

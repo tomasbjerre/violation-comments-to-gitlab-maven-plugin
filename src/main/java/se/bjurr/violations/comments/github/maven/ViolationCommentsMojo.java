@@ -7,7 +7,6 @@ import static org.gitlab.api.TokenType.ACCESS_TOKEN;
 import static org.gitlab.api.TokenType.PRIVATE_TOKEN;
 import static se.bjurr.violations.comments.gitlab.lib.ViolationCommentsToGitLabApi.violationCommentsToGitLabApi;
 import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
-import static se.bjurr.violations.lib.model.SEVERITY.INFO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,13 +26,17 @@ import se.bjurr.violations.lib.util.Filtering;
 public class ViolationCommentsMojo extends AbstractMojo {
 
   @Parameter(property = "violations", required = false)
-  private final List<ViolationConfig> violations = new ArrayList<ViolationConfig>();
+  private List<ViolationConfig> violations;
 
-  @Parameter(property = "commentOnlyChangedContent", required = false)
-  private final boolean commentOnlyChangedContent = true;
+  @Parameter(property = "commentOnlyChangedContent", required = false, defaultValue = "true")
+  private boolean commentOnlyChangedContent;
 
-  @Parameter(property = "createCommentWithAllSingleFileComments", required = false)
-  private final boolean createCommentWithAllSingleFileComments = true;
+  @Parameter(
+    property = "createCommentWithAllSingleFileComments",
+    required = false,
+    defaultValue = "true"
+  )
+  private boolean createCommentWithAllSingleFileComments;
 
   @Parameter(property = "gitLabUrl", required = false)
   private String gitLabUrl;
@@ -47,28 +50,33 @@ public class ViolationCommentsMojo extends AbstractMojo {
   @Parameter(property = "mergeRequestId", required = false)
   private String mergeRequestId;
 
-  @Parameter(property = "ignoreCertificateErrors", required = false)
-  private final Boolean ignoreCertificateErrors = true;
+  @Parameter(property = "ignoreCertificateErrors", required = false, defaultValue = "true")
+  private Boolean ignoreCertificateErrors;
 
-  @Parameter(property = "apiTokenPrivate", required = false)
-  private final Boolean apiTokenPrivate = true;
+  @Parameter(property = "apiTokenPrivate", required = false, defaultValue = "true")
+  private Boolean apiTokenPrivate;
 
-  @Parameter(property = "authMethodHeader", required = false)
-  private final Boolean authMethodHeader = true;
+  @Parameter(property = "authMethodHeader", required = false, defaultValue = "true")
+  private Boolean authMethodHeader;
 
-  @Parameter(property = "minSeverity", required = false)
-  private final SEVERITY minSeverity = INFO;
+  @Parameter(property = "minSeverity", required = false, defaultValue = "INFO")
+  private SEVERITY minSeverity;
 
   @Parameter(property = "keepOldComments", required = false)
-  private final Boolean keepOldComments = false;
+  private Boolean keepOldComments;
 
   @Parameter(property = "shouldSetWip", required = false)
-  private final Boolean shouldSetWip = false;
+  private Boolean shouldSetWip;
 
   @Override
   public void execute() throws MojoExecutionException {
     if (mergeRequestId == null || mergeRequestId.isEmpty()) {
       getLog().info("No merge request id defined, will not send violation comments to GitLab.");
+      return;
+    }
+
+    if (violations == null || violations.isEmpty()) {
+      getLog().info("No violations configured.");
       return;
     }
 
