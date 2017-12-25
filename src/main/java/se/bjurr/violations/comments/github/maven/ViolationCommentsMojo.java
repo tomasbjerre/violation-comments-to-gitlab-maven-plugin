@@ -6,7 +6,7 @@ import static org.gitlab.api.AuthMethod.URL_PARAMETER;
 import static org.gitlab.api.TokenType.ACCESS_TOKEN;
 import static org.gitlab.api.TokenType.PRIVATE_TOKEN;
 import static se.bjurr.violations.comments.gitlab.lib.ViolationCommentsToGitLabApi.violationCommentsToGitLabApi;
-import static se.bjurr.violations.lib.ViolationsReporterApi.violationsReporterApi;
+import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -88,7 +88,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
     for (final ViolationConfig configuredViolation : violations) {
 
       final List<Violation> parsedViolations =
-          violationsReporterApi() //
+          violationsApi() //
               .findAll(configuredViolation.getParser()) //
               .inFolder(configuredViolation.getFolder()) //
               .withPattern(configuredViolation.getPattern()) //

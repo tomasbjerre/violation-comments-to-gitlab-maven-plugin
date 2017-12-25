@@ -3,6 +3,20 @@
 ## Unreleased
 ### No issue
 
+**Fixing encoding issues**
+
+
+[32faaced3f368b7](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/32faaced3f368b7) Tomas Bjerre *2017-12-25 19:48:34*
+
+**Doc**
+
+
+[86eb35f49e91ca4](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/86eb35f49e91ca4) Tomas Bjerre *2017-12-24 17:20:37*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.9
+### No issue
+
 **Removing final from attributes**
 
 
