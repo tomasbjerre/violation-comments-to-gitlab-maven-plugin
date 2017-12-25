@@ -1,12 +1,12 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-gitlab-maven-plugin-1.10
 ### No issue
 
 **Fixing encoding issues**
 
 
-[32faaced3f368b7](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/32faaced3f368b7) Tomas Bjerre *2017-12-25 19:48:34*
+[9f70693af2e0dc3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/9f70693af2e0dc3) Tomas Bjerre *2017-12-25 19:57:06*
 
 **Doc**
 
