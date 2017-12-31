@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Relocating to correct Java identifier**
+
+
+[228adb57ba99d07](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/228adb57ba99d07) Tomas Bjerre *2017-12-31 11:59:26*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.10
 ### No issue
 
