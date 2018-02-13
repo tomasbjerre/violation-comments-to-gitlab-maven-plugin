@@ -1,6 +1,24 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-gitlab-maven-plugin-1.13
+### No issue
+
+**PCLint**
+
+
+[49e7211c4af77fc](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/49e7211c4af77fc) Tomas Bjerre *2018-02-13 19:24:41*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.12
+### No issue
+
+**Google error-prone**
+
+
+[ebad062b85e63ce](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ebad062b85e63ce) Tomas Bjerre *2018-01-14 12:07:06*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.11
 ### No issue
 
 **Relocating to correct Java identifier**
