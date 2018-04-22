@@ -74,7 +74,7 @@ Here is and example:
 				</goals>
 				<configuration>
 					<gitLabUrl>${GITLAB_URL}</gitLabUrl>
-					<mergeRequestId>${GITLAB_MERGEREQUESTID}</mergeRequestId>
+					<mergeRequestIid>${GITLAB_mergeRequestIid}</mergeRequestIid>
 					<projectId>${GITLAB_PROJECTID}</projectId>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
 					<createCommentWithAllSingleFileComments>true</createCommentWithAllSingleFileComments>

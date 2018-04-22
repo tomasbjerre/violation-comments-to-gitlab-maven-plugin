@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**NullAway #33**
+
+
+[a182b6fb22f0047](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a182b6fb22f0047) Tomas Bjerre *2018-04-14 05:16:22*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.13
 ### No issue
 

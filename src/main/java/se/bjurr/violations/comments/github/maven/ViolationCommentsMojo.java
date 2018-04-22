@@ -47,8 +47,8 @@ public class ViolationCommentsMojo extends AbstractMojo {
   @Parameter(property = "projectId", required = false)
   private String projectId;
 
-  @Parameter(property = "mergeRequestId", required = false)
-  private String mergeRequestId;
+  @Parameter(property = "mergeRequestIid", required = false)
+  private String mergeRequestIid;
 
   @Parameter(property = "ignoreCertificateErrors", required = false, defaultValue = "true")
   private Boolean ignoreCertificateErrors;
@@ -70,7 +70,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
 
   @Override
   public void execute() throws MojoExecutionException {
-    if (mergeRequestId == null || mergeRequestId.isEmpty()) {
+    if (mergeRequestIid == null || mergeRequestIid.isEmpty()) {
       getLog().info("No merge request id defined, will not send violation comments to GitLab.");
       return;
     }
@@ -82,7 +82,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
 
     getLog()
         .info(
-            "Will comment project " + projectId + " and MR " + mergeRequestId + " on " + gitLabUrl);
+            "Will comment project " + projectId + " and MR " + mergeRequestIid + " on " + gitLabUrl);
 
     List<Violation> allParsedViolations = new ArrayList<>();
     for (final ViolationConfig configuredViolation : violations) {
@@ -103,11 +103,11 @@ public class ViolationCommentsMojo extends AbstractMojo {
     try {
       final TokenType tokenType = apiTokenPrivate ? PRIVATE_TOKEN : ACCESS_TOKEN;
       final AuthMethod authMethod = authMethodHeader ? HEADER : URL_PARAMETER;
-      final Integer mergeRequestIdInteger = Integer.parseInt(mergeRequestId);
+      final Integer mergeRequestIidInteger = Integer.parseInt(mergeRequestIid);
       violationCommentsToGitLabApi() //
           .setHostUrl(gitLabUrl) //
           .setProjectId(projectId) //
-          .setMergeRequestId(mergeRequestIdInteger) //
+          .setMergeRequestIid(mergeRequestIidInteger) //
           .setApiToken(apiToken) //
           .setTokenType(tokenType) //
           .setMethod(authMethod) //
