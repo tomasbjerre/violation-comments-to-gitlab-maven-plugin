@@ -6,4 +6,4 @@ cd violation-comments-to-gitlab-maven-plugin-example
 # Get project id: curl -XGET "https://gitlab.com/api/v4/projects/tomas.bjerre85%2Fviolations-test"
 # MR: https://gitlab.com/api/v4/projects/2732496/merge_requests
 #
-mvn violation-comments-to-gitlab-maven-plugin:violation-comments  -DGITLAB_URL=https://gitlab.com/ -DGITLAB_MERGEREQUESTID=1 -DGITLAB_PROJECTID=2732496 -DGITLAB_APITOKEN=$GITLAB_APITOKEN -Dorg.slf4j.simpleLogger.defaultLogLevel=debug -e
+mvn violation-comments-to-gitlab-maven-plugin:violation-comments  -DGITLAB_URL=https://gitlab.com/ -DGITLAB_MERGEREQUESTIID=1 -DGITLAB_PROJECTID=2732496 -DGITLAB_APITOKEN=$GITLAB_APITOKEN -Dorg.slf4j.simpleLogger.defaultLogLevel=debug -e

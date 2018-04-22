@@ -82,7 +82,12 @@ public class ViolationCommentsMojo extends AbstractMojo {
 
     getLog()
         .info(
-            "Will comment project " + projectId + " and MR " + mergeRequestIid + " on " + gitLabUrl);
+            "Will comment project "
+                + projectId
+                + " and MR "
+                + mergeRequestIid
+                + " on "
+                + gitLabUrl);
 
     List<Violation> allParsedViolations = new ArrayList<>();
     for (final ViolationConfig configuredViolation : violations) {

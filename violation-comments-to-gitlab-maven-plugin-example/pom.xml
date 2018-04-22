@@ -19,7 +19,7 @@
 				<version>1.14-SNAPSHOT</version>
 				<configuration>
 					<gitLabUrl>${GITLAB_URL}</gitLabUrl>
-					<mergeRequestId>${GITLAB_MERGEREQUESTID}</mergeRequestId>
+					<mergeRequestIid>${GITLAB_MERGEREQUESTIID}</mergeRequestIid>
 					<projectId>${GITLAB_PROJECTID}</projectId>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
 					<createCommentWithAllSingleFileComments>true</createCommentWithAllSingleFileComments>
