@@ -7,6 +7,12 @@
 
  * Because it is named wrong in the Java GitLab API Lib! 
 
+[17d79f748930d20](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/17d79f748930d20) Tomas Bjerre *2018-04-22 16:09:47*
+
+**Changing mergeRequestId to mergeRequestIid**
+
+ * Because it is named wrong in the Java GitLab API Lib! 
+
 [7db72586f16cc16](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/7db72586f16cc16) Tomas Bjerre *2018-04-22 16:04:04*
 
 **NullAway #33**
