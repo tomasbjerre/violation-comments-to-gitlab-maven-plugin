@@ -10,13 +10,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<maven.compiler.source>1.6</maven.compiler.source>
+		<plugin.version>1.15-SNAPSHOT</plugin.version>
 	</properties>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>se.bjurr.violations</groupId>
 				<artifactId>violation-comments-to-gitlab-maven-plugin</artifactId>
-				<version>1.15-SNAPSHOT</version>
+				<version>${plugin.version}</version>
 				<configuration>
 					<gitLabUrl>${GITLAB_URL}</gitLabUrl>
 					<mergeRequestIid>${GITLAB_MERGEREQUESTIID}</mergeRequestIid>

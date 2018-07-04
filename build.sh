@@ -1,6 +1,7 @@
 #!/bin/bash
 mvn clean generate-resources eclipse:eclipse install || exit 1
 cd violation-comments-to-gitlab-maven-plugin-example
+mvn versions:update-properties -DallowSnapshots=true
 
 #
 # Get project id: curl -XGET "https://gitlab.com/api/v4/projects/tomas.bjerre85%2Fviolations-test"

@@ -68,6 +68,9 @@ public class ViolationCommentsMojo extends AbstractMojo {
   @Parameter(property = "shouldSetWip", required = false)
   private Boolean shouldSetWip;
 
+  @Parameter(property = "commentTemplate", required = false)
+  private String commentTemplate;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (mergeRequestIid == null || mergeRequestIid.isEmpty()) {
@@ -126,9 +129,10 @@ public class ViolationCommentsMojo extends AbstractMojo {
           .setViolations(allParsedViolations) //
           .setShouldKeepOldComments(keepOldComments) //
           .setShouldSetWIP(shouldSetWip) //
+          .withCommentTemplate(commentTemplate) //
           .toPullRequest();
     } catch (final Exception e) {
-      getLog().error("", e);
+      getLog().error(e.getMessage(), e);
     }
   }
 }
