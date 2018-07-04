@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Custom template**
+
+
+[24874cdfa1b15ca](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/24874cdfa1b15ca) Tomas Bjerre *2018-07-04 12:21:42*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.14
 ### No issue
 
