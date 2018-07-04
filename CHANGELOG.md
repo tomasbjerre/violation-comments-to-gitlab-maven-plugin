@@ -1,6 +1,15 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-gitlab-maven-plugin-1.16
+### No issue
+
+**GCC, ARM GCC and Doxygen**
+
+
+[a1c77cc6a96aa58](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a1c77cc6a96aa58) Tomas Bjerre *2018-07-04 18:25:58*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.15
 ### No issue
 
 **Custom template**
