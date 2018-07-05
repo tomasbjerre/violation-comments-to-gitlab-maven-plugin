@@ -1,12 +1,12 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-gitlab-maven-plugin-1.17
 ### No issue
 
 **Using java-gitlab-api from Central**
 
 
-[ff09f1f097fa9f3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ff09f1f097fa9f3) Tomas Bjerre *2018-07-05 05:17:22*
+[51601aa3637bb78](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/51601aa3637bb78) Tomas Bjerre *2018-07-05 05:22:48*
 
 
 ## violation-comments-to-gitlab-maven-plugin-1.16
