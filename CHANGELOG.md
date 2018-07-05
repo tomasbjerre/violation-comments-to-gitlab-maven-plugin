@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Using java-gitlab-api from Central**
+
+
+[ff09f1f097fa9f3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ff09f1f097fa9f3) Tomas Bjerre *2018-07-05 05:17:22*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.16
 ### No issue
 
