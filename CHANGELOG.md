@@ -1,6 +1,15 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-gitlab-maven-plugin-1.19
+### No issue
+
+**YAMLLint**
+
+
+[904b07cc9cd48a0](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/904b07cc9cd48a0) Tomas Bjerre *2018-09-15 08:26:10*
+
+
+## violation-comments-to-gitlab-maven-plugin-1.18
 ### No issue
 
 **Correcting ownerName and CPD**
