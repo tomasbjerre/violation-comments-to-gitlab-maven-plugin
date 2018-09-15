@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Correcting ownerName and CPD**
+
+
+[91335ae3bbd075a](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/91335ae3bbd075a) Tomas Bjerre *2018-09-13 05:16:56*
+
+**Updating readme with parsers**
+
+
+[5e2c067899ab4e7](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/5e2c067899ab4e7) Tomas Bjerre *2018-09-12 17:08:48*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.17
 ### No issue
 
