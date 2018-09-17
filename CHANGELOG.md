@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-gitlab-maven-plugin-1.20
+### No issue
+
+**Fix optional rule in YAMLLint**
+
+
+[c4909ba2fd7daf5](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/c4909ba2fd7daf5) Tomas Bjerre *2018-09-17 13:45:28*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.19
 ### No issue
 
