@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-gitlab-maven-plugin-1.21
+### No issue
+
+**Prettier logging**
+
+
+[531bf951bce6dab](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/531bf951bce6dab) Tomas Bjerre *2018-09-18 10:12:41*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.20
 ### No issue
 
