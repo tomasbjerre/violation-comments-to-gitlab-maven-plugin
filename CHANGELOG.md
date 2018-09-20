@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-gitlab-maven-plugin-1.23
+### No issue
+
+**Correcting Kotlin parsers**
+
+
+[15c41b6bf0c90d0](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/15c41b6bf0c90d0) Tomas Bjerre *2018-09-20 23:54:41*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.22
 ### No issue
 
