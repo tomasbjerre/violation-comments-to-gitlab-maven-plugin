@@ -77,7 +77,7 @@
 		<dependency>
 			<groupId>se.bjurr.violations</groupId>
 			<artifactId>violation-comments-to-gitlab-lib</artifactId>
-			<version>1.48</version>
+			<version>1.49</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>

@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Documenting parsers as a table**
+
+
+[3bc922ea0103a2d](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/3bc922ea0103a2d) Tomas Bjerre *2018-09-22 08:44:56*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.23
 ### No issue
 
