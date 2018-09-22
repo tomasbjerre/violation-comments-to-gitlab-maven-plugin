@@ -1,7 +1,12 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-gitlab-maven-plugin-1.24
 ### No issue
+
+**Avoid java-gitlab-api bug to spam logs with exception #3**
+
+
+[6075fa2a131eceb](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6075fa2a131eceb) Tomas Bjerre *2018-09-22 17:02:20*
 
 **Documenting parsers as a table**
 
