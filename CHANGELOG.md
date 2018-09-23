@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**Doc**
+
+
+[9be93b03f28dd05](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/9be93b03f28dd05) Tomas Bjerre *2018-09-22 18:19:50*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.24
 ### No issue
 
