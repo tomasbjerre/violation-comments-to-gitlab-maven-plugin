@@ -10,14 +10,12 @@ import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.gitlab.api.AuthMethod;
 import org.gitlab.api.TokenType;
-
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
 import se.bjurr.violations.lib.util.Filtering;
@@ -32,10 +30,9 @@ public class ViolationCommentsMojo extends AbstractMojo {
   private boolean commentOnlyChangedContent;
 
   @Parameter(
-    property = "createCommentWithAllSingleFileComments",
-    required = false,
-    defaultValue = "true"
-  )
+      property = "createCommentWithAllSingleFileComments",
+      required = false,
+      defaultValue = "true")
   private boolean createCommentWithAllSingleFileComments;
 
   @Parameter(property = "gitLabUrl", required = false)

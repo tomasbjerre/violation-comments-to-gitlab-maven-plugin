@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**Automating reporters in readme**
+
+
+[ed5622f90eff80b](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ed5622f90eff80b) Tomas Bjerre *2018-09-23 13:00:47*
+
 **Doc**
 
 
@@ -10,12 +15,15 @@
 
 
 ## violation-comments-to-gitlab-maven-plugin-1.24
-### No issue
+### GitHub [#3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/issues/3) Could not remove previous comment
 
 **Avoid java-gitlab-api bug to spam logs with exception #3**
 
 
 [6075fa2a131eceb](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6075fa2a131eceb) Tomas Bjerre *2018-09-22 17:02:20*
+
+
+### No issue
 
 **Documenting parsers as a table**
 
@@ -110,6 +118,14 @@
 
 
 ## violation-comments-to-gitlab-maven-plugin-1.14
+### GitHub #33 
+
+**NullAway #33**
+
+
+[a182b6fb22f0047](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a182b6fb22f0047) Tomas Bjerre *2018-04-14 05:16:22*
+
+
 ### No issue
 
 **Changing mergeRequestId to mergeRequestIid**
@@ -123,11 +139,6 @@
  * Because it is named wrong in the Java GitLab API Lib! 
 
 [7db72586f16cc16](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/7db72586f16cc16) Tomas Bjerre *2018-04-22 16:04:04*
-
-**NullAway #33**
-
-
-[a182b6fb22f0047](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a182b6fb22f0047) Tomas Bjerre *2018-04-14 05:16:22*
 
 
 ## violation-comments-to-gitlab-maven-plugin-1.13
