@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**Automatically stepping dependencies**
+
+
+[08bcf5b56e37be1](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/08bcf5b56e37be1) Tomas Bjerre *2018-09-23 15:22:24*
+
 **Automating reporters in readme**
 
 
