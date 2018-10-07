@@ -35,6 +35,9 @@ public class ViolationCommentsMojo extends AbstractMojo {
       defaultValue = "true")
   private boolean createCommentWithAllSingleFileComments;
 
+  @Parameter(property = "createSingleFileComments", required = false, defaultValue = "true")
+  private boolean createSingleFileComments;
+
   @Parameter(property = "gitLabUrl", required = false)
   private String gitLabUrl;
 
@@ -118,10 +121,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
           .setMethod(authMethod) //
           .setCommentOnlyChangedContent(commentOnlyChangedContent) //
           .setCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
-          /**
-           * Cannot yet support single file comments because the API does not support it.
-           * https://gitlab.com/gitlab-org/gitlab-ce/issues/14850
-           */
+          .setCreateSingleFileComments(createSingleFileComments) //
           .setIgnoreCertificateErrors(ignoreCertificateErrors) //
           .setViolations(allParsedViolations) //
           .setShouldKeepOldComments(keepOldComments) //

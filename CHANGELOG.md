@@ -3,6 +3,11 @@
 ## Unreleased
 ### No issue
 
+**Commenting on diff**
+
+
+[971eaec7d7c56d3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/971eaec7d7c56d3) Tomas Bjerre *2018-10-07 12:21:31*
+
 **Automatically stepping dependencies**
 
 

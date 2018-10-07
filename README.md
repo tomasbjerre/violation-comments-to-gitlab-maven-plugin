@@ -90,6 +90,7 @@ Here is and example:
 					<projectId>${GITLAB_PROJECTID}</projectId>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
 					<createCommentWithAllSingleFileComments>true</createCommentWithAllSingleFileComments>
+					<createSingleFileComments>true</createSingleFileComments>
 					<keepOldComments>false</keepOldComments>
 					<minSeverity>INFO</minSeverity>
 					<apiTokenPrivate>true</apiTokenPrivate>
