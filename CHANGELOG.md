@@ -1,7 +1,12 @@
 # Changelog
 
-## Unreleased
+## violation-comments-to-gitlab-maven-plugin-1.25
 ### No issue
+
+**Commenting on diff**
+
+
+[bcfd2012cb2d7b9](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/bcfd2012cb2d7b9) Tomas Bjerre *2018-10-07 14:20:40*
 
 **Commenting on diff**
 
