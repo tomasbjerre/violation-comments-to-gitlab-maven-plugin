@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-gitlab-maven-plugin-1.26
+### No issue
+
+**Avoiding NPE when line not in diff**
+
+
+[ad2118e8d48667e](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ad2118e8d48667e) Tomas Bjerre *2018-10-08 17:18:20*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.25
 ### No issue
 
