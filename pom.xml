@@ -45,7 +45,7 @@
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<changelog>1.55</changelog>
-		<violations-lib>1.54</violations-lib>
+		<violations-lib>1.55</violations-lib>
 		<fmt>2.5.1</fmt>
 	</properties>
 
