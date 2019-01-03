@@ -1,5 +1,14 @@
 # Changelog
 
+## violation-comments-to-gitlab-maven-plugin-1.27
+### No issue
+
+**Correcting AnsibleLint parsing**
+
+
+[338c2b62fcf071e](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/338c2b62fcf071e) Tomas Bjerre *2019-01-03 17:23:57*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.26
 ### No issue
 
