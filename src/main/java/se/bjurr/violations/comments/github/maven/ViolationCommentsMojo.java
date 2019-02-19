@@ -1,10 +1,6 @@
 package se.bjurr.violations.comments.github.maven;
 
 import static org.apache.maven.plugins.annotations.LifecyclePhase.NONE;
-import static org.gitlab.api.AuthMethod.HEADER;
-import static org.gitlab.api.AuthMethod.URL_PARAMETER;
-import static org.gitlab.api.TokenType.ACCESS_TOKEN;
-import static org.gitlab.api.TokenType.PRIVATE_TOKEN;
 import static se.bjurr.violations.comments.gitlab.lib.ViolationCommentsToGitLabApi.violationCommentsToGitLabApi;
 import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
@@ -14,8 +10,7 @@ import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
-import org.gitlab.api.AuthMethod;
-import org.gitlab.api.TokenType;
+import org.gitlab4j.api.Constants.TokenType;
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
 import se.bjurr.violations.lib.util.Filtering;
@@ -56,9 +51,6 @@ public class ViolationCommentsMojo extends AbstractMojo {
   @Parameter(property = "apiTokenPrivate", required = false, defaultValue = "true")
   private Boolean apiTokenPrivate;
 
-  @Parameter(property = "authMethodHeader", required = false, defaultValue = "true")
-  private Boolean authMethodHeader;
-
   @Parameter(property = "minSeverity", required = false, defaultValue = "INFO")
   private SEVERITY minSeverity;
 
@@ -70,6 +62,15 @@ public class ViolationCommentsMojo extends AbstractMojo {
 
   @Parameter(property = "commentTemplate", required = false)
   private String commentTemplate;
+
+  @Parameter(property = "proxyServer", required = false)
+  private String proxyServer;
+
+  @Parameter(property = "proxyUser", required = false)
+  private String proxyUser;
+
+  @Parameter(property = "proxyPassword", required = false)
+  private String proxyPassword;
 
   @Override
   public void execute() throws MojoExecutionException {
@@ -109,8 +110,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
     }
 
     try {
-      final TokenType tokenType = apiTokenPrivate ? PRIVATE_TOKEN : ACCESS_TOKEN;
-      final AuthMethod authMethod = authMethodHeader ? HEADER : URL_PARAMETER;
+      final TokenType tokenType = apiTokenPrivate ? TokenType.PRIVATE : TokenType.ACCESS;
       final Integer mergeRequestIidInteger = Integer.parseInt(mergeRequestIid);
       violationCommentsToGitLabApi() //
           .setHostUrl(gitLabUrl) //
@@ -118,7 +118,6 @@ public class ViolationCommentsMojo extends AbstractMojo {
           .setMergeRequestIid(mergeRequestIidInteger) //
           .setApiToken(apiToken) //
           .setTokenType(tokenType) //
-          .setMethod(authMethod) //
           .setCommentOnlyChangedContent(commentOnlyChangedContent) //
           .setCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
           .setCreateSingleFileComments(createSingleFileComments) //
@@ -126,7 +125,10 @@ public class ViolationCommentsMojo extends AbstractMojo {
           .setViolations(allParsedViolations) //
           .setShouldKeepOldComments(keepOldComments) //
           .setShouldSetWIP(shouldSetWip) //
-          .withCommentTemplate(commentTemplate) //
+          .setCommentTemplate(commentTemplate) //
+          .setProxyServer(proxyServer) //
+          .setProxyUser(proxyUser) //
+          .setProxyPassword(proxyPassword) //
           .toPullRequest();
     } catch (final Exception e) {
       getLog().error(e.getMessage(), e);

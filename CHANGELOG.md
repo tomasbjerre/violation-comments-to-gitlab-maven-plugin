@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+### No issue
+
+**fixed typo: Gradle -> Maven**
+
+
+[f305f6233826427](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/f305f6233826427) Andre Carmo *2019-01-28 11:48:46*
+
+
 ## violation-comments-to-gitlab-maven-plugin-1.27
 ### No issue
 
