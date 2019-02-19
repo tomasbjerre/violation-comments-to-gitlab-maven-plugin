@@ -104,7 +104,6 @@ Here is an example:
 					<minSeverity>INFO</minSeverity>
 					<apiTokenPrivate>true</apiTokenPrivate>
 					<apiToken>${GITLAB_APITOKEN}</apiToken>
-					<authMethodHeader>true</authMethodHeader>
 					<ignoreCertificateErrors>true</ignoreCertificateErrors>
 					<shouldSetWip>false</shouldSetWip>
 					<violations>
