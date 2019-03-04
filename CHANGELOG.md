@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.29
+### No issue
+
+**Correcting logging**
+
+
+[0ffe89b50b36f3b](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/0ffe89b50b36f3b) Tomas Bjerre *2019-03-04 05:11:51*
+
+
 ## 1.28
 ### No issue
 
