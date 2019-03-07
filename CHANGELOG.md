@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.30
+### No issue
+
+**golangci-lint**
+
+
+[43dd23f95bc2a00](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/43dd23f95bc2a00) Tomas Bjerre *2019-03-07 16:16:36*
+
+
 ## 1.29
 ### No issue
 
