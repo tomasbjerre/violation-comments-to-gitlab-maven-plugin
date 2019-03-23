@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.31
+### No issue
+
+**Sonar Report**
+
+
+[fe4dcd4f1e45b84](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/fe4dcd4f1e45b84) Tomas Bjerre *2019-03-23 14:42:36*
+
+
 ## 1.30
 ### No issue
 
