@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.32
+### No issue
+
+**Correcting Sonar severity**
+
+
+[a5e74094d0294c8](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a5e74094d0294c8) Tomas Bjerre *2019-03-30 08:23:46*
+
+
 ## 1.31
 ### No issue
 
