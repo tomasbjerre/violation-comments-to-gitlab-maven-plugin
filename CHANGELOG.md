@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.33
+### No issue
+
+**maxNumberOfComments**
+
+
+[9f050efc6b05566](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/9f050efc6b05566) Tomas Bjerre *2019-03-31 16:28:37*
+
+
 ## 1.32
 ### No issue
 
