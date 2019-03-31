@@ -72,6 +72,9 @@ public class ViolationCommentsMojo extends AbstractMojo {
   @Parameter(property = "proxyPassword", required = false)
   private String proxyPassword;
 
+  @Parameter(property = "maxNumberOfComments", required = false)
+  private Integer maxNumberOfComments;
+
   @Override
   public void execute() throws MojoExecutionException {
     if (mergeRequestIid == null || mergeRequestIid.isEmpty()) {
@@ -129,6 +132,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
           .setProxyServer(proxyServer) //
           .setProxyUser(proxyUser) //
           .setProxyPassword(proxyPassword) //
+          .setMaxNumberOfViolations(maxNumberOfComments) //
           .toPullRequest();
     } catch (final Exception e) {
       getLog().error(e.getMessage(), e);
