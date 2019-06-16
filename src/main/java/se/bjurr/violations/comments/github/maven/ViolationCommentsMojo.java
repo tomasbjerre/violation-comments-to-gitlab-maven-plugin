@@ -24,6 +24,9 @@ public class ViolationCommentsMojo extends AbstractMojo {
   @Parameter(property = "commentOnlyChangedContent", required = false, defaultValue = "true")
   private boolean commentOnlyChangedContent;
 
+  @Parameter(property = "commentOnlyChangedFiles", required = false, defaultValue = "true")
+  private boolean commentOnlyChangedFiles;
+
   @Parameter(
       property = "createCommentWithAllSingleFileComments",
       required = false,
@@ -122,6 +125,7 @@ public class ViolationCommentsMojo extends AbstractMojo {
           .setApiToken(apiToken) //
           .setTokenType(tokenType) //
           .setCommentOnlyChangedContent(commentOnlyChangedContent) //
+          .withShouldCommentOnlyChangedFiles(commentOnlyChangedFiles) //
           .setCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
           .setCreateSingleFileComments(createSingleFileComments) //
           .setIgnoreCertificateErrors(ignoreCertificateErrors) //
