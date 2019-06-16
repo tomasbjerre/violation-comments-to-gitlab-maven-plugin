@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.34
+### No issue
+
+**commentOnlyChangedFiles**
+
+
+[64adc3372ba316b](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/64adc3372ba316b) Tomas Bjerre *2019-06-16 17:36:27*
+
+
 ## 1.33
 ### No issue
 
