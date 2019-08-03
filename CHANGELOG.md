@@ -1,12 +1,12 @@
 # Changelog
 
-## Unreleased
+## 1.35
 ### No issue
 
 **Changing name of JSHINT parser to JSLINT**
 
 
-[88d1db7d51168fa](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/88d1db7d51168fa) Tomas Bjerre *2019-08-03 11:50:49*
+[e40ee4beb7f59c2](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/e40ee4beb7f59c2) Tomas Bjerre *2019-08-03 11:52:30*
 
 
 ## 1.34
