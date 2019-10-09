@@ -1,7 +1,12 @@
 # Changelog
 
-## Unreleased
+## 1.36
 ### No issue
+
+**Correcting missing diff_refs**
+
+
+[fd963c3b6581af8](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/fd963c3b6581af8) Tomas Bjerre *2019-10-09 19:00:50*
 
 **Create FUNDING.yml**
 
