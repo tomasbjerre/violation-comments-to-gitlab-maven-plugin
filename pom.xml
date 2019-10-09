@@ -45,8 +45,8 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<changelog>1.60</changelog>
-		<violation-comments-lib>1.78</violation-comments-lib>
-		<violations-lib>1.96</violations-lib>
+		<violation-comments-lib>1.80</violation-comments-lib>
+		<violations-lib>1.103</violations-lib>
 		<fmt>2.6.0</fmt>
 	</properties>
 
