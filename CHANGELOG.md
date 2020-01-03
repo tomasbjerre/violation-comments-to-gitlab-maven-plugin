@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.37
+### GitHub #80 
+
+**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib#80**
+
+
+[6d9313c451f6311](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6d9313c451f6311) Tomas Bjerre *2020-01-03 07:44:12*
+
+
 ## 1.36
 ### No issue
 
