@@ -4,13 +4,16 @@ import static org.apache.maven.plugins.annotations.LifecyclePhase.NONE;
 import static se.bjurr.violations.comments.gitlab.lib.ViolationCommentsToGitLabApi.violationCommentsToGitLabApi;
 import static se.bjurr.violations.lib.ViolationsApi.violationsApi;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.logging.Level;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.gitlab4j.api.Constants.TokenType;
+import se.bjurr.violations.lib.ViolationsLogger;
 import se.bjurr.violations.lib.model.SEVERITY;
 import se.bjurr.violations.lib.model.Violation;
 import se.bjurr.violations.lib.util.Filtering;
@@ -80,66 +83,95 @@ public class ViolationCommentsMojo extends AbstractMojo {
 
   @Override
   public void execute() throws MojoExecutionException {
-    if (mergeRequestIid == null || mergeRequestIid.isEmpty()) {
-      getLog().info("No merge request id defined, will not send violation comments to GitLab.");
+    if (this.mergeRequestIid == null || this.mergeRequestIid.isEmpty()) {
+      this.getLog()
+          .info("No merge request id defined, will not send violation comments to GitLab.");
       return;
     }
 
-    if (violations == null || violations.isEmpty()) {
-      getLog().info("No violations configured.");
+    if (this.violations == null || this.violations.isEmpty()) {
+      this.getLog().info("No violations configured.");
       return;
     }
 
-    getLog()
+    this.getLog()
         .info(
             "Will comment project "
-                + projectId
+                + this.projectId
                 + " and MR "
-                + mergeRequestIid
+                + this.mergeRequestIid
                 + " on "
-                + gitLabUrl);
+                + this.gitLabUrl);
 
-    List<Violation> allParsedViolations = new ArrayList<>();
-    for (final ViolationConfig configuredViolation : violations) {
+    final ViolationsLogger violationsLogger =
+        new ViolationsLogger() {
 
-      final List<Violation> parsedViolations =
-          violationsApi() //
+          @Override
+          public void log(final Level level, final String string) {
+            if (level == Level.FINE) {
+              ViolationCommentsMojo.this.getLog().debug(string);
+            } else if (level == Level.SEVERE) {
+              ViolationCommentsMojo.this.getLog().error(string);
+            } else if (level == Level.WARNING) {
+              ViolationCommentsMojo.this.getLog().warn(string);
+            }
+          }
+
+          @Override
+          public void log(final Level level, final String string, final Throwable t) {
+            if (level == Level.FINE) {
+              ViolationCommentsMojo.this.getLog().debug(string, t);
+            } else if (level == Level.SEVERE) {
+              ViolationCommentsMojo.this.getLog().error(string, t);
+            } else if (level == Level.WARNING) {
+              ViolationCommentsMojo.this.getLog().warn(string, t);
+            }
+          }
+        };
+
+    Set<Violation> allParsedViolations = new TreeSet<>();
+    for (final ViolationConfig configuredViolation : this.violations) {
+      final Set<Violation> parsedViolations =
+          violationsApi()
+              .withViolationsLogger(violationsLogger)
               .findAll(configuredViolation.getParser()) //
               .inFolder(configuredViolation.getFolder()) //
               .withPattern(configuredViolation.getPattern()) //
               .withReporter(configuredViolation.getReporter()) //
               .violations();
-      if (minSeverity != null) {
-        allParsedViolations = Filtering.withAtLEastSeverity(allParsedViolations, minSeverity);
+      if (this.minSeverity != null) {
+        allParsedViolations = Filtering.withAtLEastSeverity(allParsedViolations, this.minSeverity);
       }
       allParsedViolations.addAll(parsedViolations);
     }
 
     try {
-      final TokenType tokenType = apiTokenPrivate ? TokenType.PRIVATE : TokenType.ACCESS;
-      final Integer mergeRequestIidInteger = Integer.parseInt(mergeRequestIid);
-      violationCommentsToGitLabApi() //
-          .setHostUrl(gitLabUrl) //
-          .setProjectId(projectId) //
-          .setMergeRequestIid(mergeRequestIidInteger) //
-          .setApiToken(apiToken) //
-          .setTokenType(tokenType) //
-          .setCommentOnlyChangedContent(commentOnlyChangedContent) //
-          .withShouldCommentOnlyChangedFiles(commentOnlyChangedFiles) //
-          .setCreateCommentWithAllSingleFileComments(createCommentWithAllSingleFileComments) //
-          .setCreateSingleFileComments(createSingleFileComments) //
-          .setIgnoreCertificateErrors(ignoreCertificateErrors) //
+      final TokenType tokenType = this.apiTokenPrivate ? TokenType.PRIVATE : TokenType.ACCESS;
+      final Integer mergeRequestIidInteger = Integer.parseInt(this.mergeRequestIid);
+      violationCommentsToGitLabApi()
+          .setViolationsLogger(violationsLogger)
+          .setHostUrl(this.gitLabUrl)
+          .setProjectId(this.projectId)
+          .setMergeRequestIid(mergeRequestIidInteger)
+          .setApiToken(this.apiToken)
+          .setTokenType(tokenType)
+          .setCommentOnlyChangedContent(this.commentOnlyChangedContent) //
+          .withShouldCommentOnlyChangedFiles(this.commentOnlyChangedFiles) //
+          .setCreateCommentWithAllSingleFileComments(
+              this.createCommentWithAllSingleFileComments) //
+          .setCreateSingleFileComments(this.createSingleFileComments) //
+          .setIgnoreCertificateErrors(this.ignoreCertificateErrors) //
           .setViolations(allParsedViolations) //
-          .setShouldKeepOldComments(keepOldComments) //
-          .setShouldSetWIP(shouldSetWip) //
-          .setCommentTemplate(commentTemplate) //
-          .setProxyServer(proxyServer) //
-          .setProxyUser(proxyUser) //
-          .setProxyPassword(proxyPassword) //
-          .setMaxNumberOfViolations(maxNumberOfComments) //
+          .setShouldKeepOldComments(this.keepOldComments) //
+          .setShouldSetWIP(this.shouldSetWip) //
+          .setCommentTemplate(this.commentTemplate) //
+          .setProxyServer(this.proxyServer) //
+          .setProxyUser(this.proxyUser) //
+          .setProxyPassword(this.proxyPassword) //
+          .setMaxNumberOfViolations(this.maxNumberOfComments) //
           .toPullRequest();
     } catch (final Exception e) {
-      getLog().error(e.getMessage(), e);
+      this.getLog().error(e.getMessage(), e);
     }
   }
 }
