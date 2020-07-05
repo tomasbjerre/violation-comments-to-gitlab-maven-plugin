@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.39
+### No issue
+
+**New: custom logging in violations-lib**
+
+
+[3313defb0a5f269](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/3313defb0a5f269) Tomas Bjerre *2020-07-05 13:41:47*
+
+
 ## 1.38
 ### GitHub #82 
 
