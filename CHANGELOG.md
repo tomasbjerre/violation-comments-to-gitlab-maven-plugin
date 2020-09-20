@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.41
+### No issue
+
+**violations-lib 1.128**
+
+
+[e9bd746de0aec3b](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/e9bd746de0aec3b) Tomas Bjerre *2020-09-20 13:31:41*
+
+
 ## 1.40
 ### No issue
 
