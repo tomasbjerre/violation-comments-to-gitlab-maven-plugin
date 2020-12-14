@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.42
+### GitHub #117 
+
+**Correctings in patchparsing tomasbjerre/violations-lib#117**
+
+
+[967f671d0d6a370](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/967f671d0d6a370) Tomas Bjerre *2020-12-14 15:18:05*
+
+
 ## 1.41
 ### No issue
 
