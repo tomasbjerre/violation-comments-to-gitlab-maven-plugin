@@ -6,7 +6,29 @@
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[e2b1eb845d2afb5](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/e2b1eb845d2afb5) Tomas Bjerre *2021-07-03 15:44:45*
+[8eb30f7f851ca5f](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/8eb30f7f851ca5f) Tomas Bjerre *2021-07-03 15:53:56*
+
+
+## 1.44
+### Jira plugin-1 
+
+**[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.44**
+
+
+[2a03d5ad75fd927](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/2a03d5ad75fd927) Tomas Bjerre *2021-07-03 15:53:50*
+
+
+### No issue
+
+**build: releasing to Central**
+
+
+[8b65b59ed44d26c](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/8b65b59ed44d26c) Tomas Bjerre *2021-07-03 15:53:19*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[454fc4e844f41df](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/454fc4e844f41df) Tomas Bjerre *2021-07-03 15:46:32*
 
 
 ## 1.43
