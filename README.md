@@ -107,6 +107,7 @@ Here is an example:
 					<mergeRequestIid>${GITLAB_mergeRequestIid}</mergeRequestIid>
 					<projectId>${GITLAB_PROJECTID}</projectId>
 					<commentOnlyChangedContent>true</commentOnlyChangedContent>
+					<commentOnlyChangedContentContext>0</commentOnlyChangedContentContext>
 					<createCommentWithAllSingleFileComments>true</createCommentWithAllSingleFileComments>
 					<createSingleFileComments>true</createSingleFileComments>
 					<keepOldComments>false</keepOldComments>
