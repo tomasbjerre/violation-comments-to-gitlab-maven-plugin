@@ -1,6 +1,15 @@
 # Changelog
 
 ## Unreleased
+### No issue
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[45d0dcb9dfe4488](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/45d0dcb9dfe4488) Tomas Bjerre *2021-07-06 05:13:27*
+
+
+## 1.45
 ### GitHub [#9](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/pull/9) Giving access to the commentOnlyChangedContentContext parameter
 
 **Merge pull request #9 from ateglas/issue-15**
@@ -19,7 +28,20 @@
 [0b942ea443c5068](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/0b942ea443c5068) Tomas Bjerre *2021-07-06 04:58:54*
 
 
+### Jira plugin-1 
+
+**[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.45**
+
+
+[5b7326902ca43a8](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/5b7326902ca43a8) Tomas Bjerre *2021-07-06 05:13:21*
+
+
 ### No issue
+
+**doc: changelog**
+
+
+[ea9b3c7a1cccbce](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ea9b3c7a1cccbce) Tomas Bjerre *2021-07-06 05:12:51*
 
 **Giving access to the commentOnlyChangedContentContext parameter**
 
