@@ -6,42 +6,46 @@
 **[maven-release-plugin] prepare for next development iteration**
 
 
-[45d0dcb9dfe4488](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/45d0dcb9dfe4488) Tomas Bjerre *2021-07-06 05:13:27*
+[a87516628a62d10](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a87516628a62d10) Tomas Bjerre *2022-03-27 07:06:40*
+
+
+## 1.46
+### No issue
+
+**[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.46**
+
+
+[8bfc3b595c48a24](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/8bfc3b595c48a24) Tomas Bjerre *2022-03-27 07:06:36*
+
+**feat: stepping lib versions**
+
+
+[e4bf2b8d701282d](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/e4bf2b8d701282d) Tomas Bjerre *2022-03-27 07:06:13*
+
+**[maven-release-plugin] prepare for next development iteration**
+
+
+[038351f728b7eff](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/038351f728b7eff) Tomas Bjerre *2021-07-06 05:14:54*
 
 
 ## 1.45
-### GitHub [#9](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/pull/9) Giving access to the commentOnlyChangedContentContext parameter
-
-**Merge pull request #9 from ateglas/issue-15**
-
- * Giving access to the commentOnlyChangedContentContext parameter 
-
-[0b942ea443c5068](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/0b942ea443c5068) Tomas Bjerre *2021-07-06 04:58:54*
-
-
-### Jira issue-15 
-
-**Merge pull request #9 from ateglas/issue-15**
-
- * Giving access to the commentOnlyChangedContentContext parameter 
-
-[0b942ea443c5068](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/0b942ea443c5068) Tomas Bjerre *2021-07-06 04:58:54*
-
-
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.45**
 
 
 [5b7326902ca43a8](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/5b7326902ca43a8) Tomas Bjerre *2021-07-06 05:13:21*
 
-
-### No issue
-
 **doc: changelog**
 
 
 [ea9b3c7a1cccbce](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ea9b3c7a1cccbce) Tomas Bjerre *2021-07-06 05:12:51*
+
+**Merge pull request #9 from ateglas/issue-15**
+
+ * Giving access to the commentOnlyChangedContentContext parameter 
+
+[0b942ea443c5068](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/0b942ea443c5068) Tomas Bjerre *2021-07-06 04:58:54*
 
 **Giving access to the commentOnlyChangedContentContext parameter**
 
@@ -55,15 +59,12 @@
 
 
 ## 1.44
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.44**
 
 
 [2a03d5ad75fd927](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/2a03d5ad75fd927) Tomas Bjerre *2021-07-03 15:53:50*
-
-
-### No issue
 
 **build: releasing to Central**
 
@@ -77,15 +78,12 @@
 
 
 ## 1.43
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.43**
 
 
 [90af8911dc72a52](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/90af8911dc72a52) Tomas Bjerre *2021-07-03 15:44:39*
-
-
-### No issue
 
 **fix: Added test cases and fix for large new files**
 
@@ -99,23 +97,17 @@
 
 
 ## 1.42
-### GitHub #117 
-
-**Correctings in patchparsing tomasbjerre/violations-lib#117**
-
-
-[967f671d0d6a370](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/967f671d0d6a370) Tomas Bjerre *2020-12-14 15:18:05*
-
-
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.42**
 
 
 [789abeeea3ce25f](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/789abeeea3ce25f) Tomas Bjerre *2020-12-14 15:18:26*
 
+**Correctings in patchparsing tomasbjerre/violations-lib#117**
 
-### No issue
+
+[967f671d0d6a370](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/967f671d0d6a370) Tomas Bjerre *2020-12-14 15:18:05*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -124,15 +116,12 @@
 
 
 ## 1.41
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.41**
 
 
 [7c3fcd51bb2505d](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/7c3fcd51bb2505d) Tomas Bjerre *2020-09-20 13:32:04*
-
-
-### No issue
 
 **violations-lib 1.128**
 
@@ -146,15 +135,12 @@
 
 
 ## 1.40
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.40**
 
 
 [c432bba02e88300](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/c432bba02e88300) Tomas Bjerre *2020-07-05 15:13:41*
-
-
-### No issue
 
 **New: custom logging in violations-lib**
 
@@ -168,15 +154,12 @@
 
 
 ## 1.39
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.39**
 
 
 [86ef3408513bd9e](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/86ef3408513bd9e) Tomas Bjerre *2020-07-05 13:42:07*
-
-
-### No issue
 
 **New: custom logging in violations-lib**
 
@@ -190,23 +173,17 @@
 
 
 ## 1.38
-### GitHub #82 
-
-**CPPCheckParser with auto closed <error/> tags tomasbjerre/violations-lib#82**
-
-
-[4259e07251717fe](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/4259e07251717fe) Tomas Bjerre *2020-02-03 16:43:44*
-
-
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.38**
 
 
 [60d82e908f3485e](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/60d82e908f3485e) Tomas Bjerre *2020-02-03 16:44:04*
 
+**CPPCheckParser with auto closed <error/> tags tomasbjerre/violations-lib#82**
 
-### No issue
+
+[4259e07251717fe](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/4259e07251717fe) Tomas Bjerre *2020-02-03 16:43:44*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -215,23 +192,17 @@
 
 
 ## 1.37
-### GitHub #80 
-
-**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib#80**
-
-
-[6d9313c451f6311](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6d9313c451f6311) Tomas Bjerre *2020-01-03 07:44:12*
-
-
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.37**
 
 
 [955798b4c276fc2](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/955798b4c276fc2) Tomas Bjerre *2020-01-03 07:44:31*
 
+**Add support for sonar issue report formats >= v7.5 tomasbjerre/violations-lib#80**
 
-### No issue
+
+[6d9313c451f6311](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6d9313c451f6311) Tomas Bjerre *2020-01-03 07:44:12*
 
 **[maven-release-plugin] prepare for next development iteration**
 
@@ -240,15 +211,12 @@
 
 
 ## 1.36
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.36**
 
 
 [5887aad46441e33](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/5887aad46441e33) Tomas Bjerre *2019-10-09 19:01:08*
-
-
-### No issue
 
 **Correcting missing diff_refs**
 
@@ -267,15 +235,12 @@
 
 
 ## 1.35
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.35**
 
 
 [2504f182a7d859d](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/2504f182a7d859d) Tomas Bjerre *2019-08-03 11:58:45*
-
-
-### No issue
 
 **Changing name of JSHINT parser to JSLINT**
 
@@ -289,15 +254,12 @@
 
 
 ## 1.34
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.34**
 
 
 [3f94f8f118eeb97](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/3f94f8f118eeb97) Tomas Bjerre *2019-06-16 17:36:46*
-
-
-### No issue
 
 **commentOnlyChangedFiles**
 
@@ -311,15 +273,12 @@
 
 
 ## 1.33
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.33**
 
 
 [61918810df608b3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/61918810df608b3) Tomas Bjerre *2019-03-31 16:28:55*
-
-
-### No issue
 
 **maxNumberOfComments**
 
@@ -333,15 +292,12 @@
 
 
 ## 1.32
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.32**
 
 
 [48c52b8e117cd16](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/48c52b8e117cd16) Tomas Bjerre *2019-03-30 08:24:41*
-
-
-### No issue
 
 **Correcting Sonar severity**
 
@@ -355,15 +311,12 @@
 
 
 ## 1.31
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.31**
 
 
 [c1918ee719864da](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/c1918ee719864da) Tomas Bjerre *2019-03-23 14:42:57*
-
-
-### No issue
 
 **Sonar Report**
 
@@ -377,15 +330,12 @@
 
 
 ## 1.30
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.30**
 
 
 [e94e379545addda](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/e94e379545addda) Tomas Bjerre *2019-03-07 16:16:59*
-
-
-### No issue
 
 **golangci-lint**
 
@@ -399,15 +349,12 @@
 
 
 ## 1.29
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.29**
 
 
 [89456ef73161485](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/89456ef73161485) Tomas Bjerre *2019-03-04 05:12:14*
-
-
-### No issue
 
 **Correcting logging**
 
@@ -421,30 +368,24 @@
 
 
 ## 1.28
-### GitHub [#5](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/pull/5) fixed typo: Gradle -&gt; Maven
-
-**Merge pull request #5 from atmcarmo/fix-readme-maven**
-
- * fixed typo: Gradle -&gt; Maven 
-
-[30ce030235b4849](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/30ce030235b4849) Tomas Bjerre *2019-01-28 11:52:36*
-
-
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.28**
 
 
 [5ca40d834b1da52](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/5ca40d834b1da52) Tomas Bjerre *2019-02-19 19:35:20*
 
-
-### No issue
-
 **Switching to gitlab4j-api**
 
  * Also adding proxy support. 
 
 [0aabb3e9bada2c9](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/0aabb3e9bada2c9) Tomas Bjerre *2019-02-19 19:32:45*
+
+**Merge pull request #5 from atmcarmo/fix-readme-maven**
+
+ * fixed typo: Gradle -&gt; Maven 
+
+[30ce030235b4849](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/30ce030235b4849) Tomas Bjerre *2019-01-28 11:52:36*
 
 **fixed typo: Gradle -> Maven**
 
@@ -458,15 +399,12 @@
 
 
 ## 1.27
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.27**
 
 
 [9d41950fcbf9c3f](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/9d41950fcbf9c3f) Tomas Bjerre *2019-01-03 17:24:15*
-
-
-### No issue
 
 **Correcting AnsibleLint parsing**
 
@@ -480,15 +418,12 @@
 
 
 ## 1.26
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.26**
 
 
 [ef35e3d7877001e](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ef35e3d7877001e) Tomas Bjerre *2018-10-08 17:18:40*
-
-
-### No issue
 
 **Avoiding NPE when line not in diff**
 
@@ -502,15 +437,12 @@
 
 
 ## 1.25
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.25**
 
 
 [8c06c551a2e64ac](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/8c06c551a2e64ac) Tomas Bjerre *2018-10-07 14:20:59*
-
-
-### No issue
 
 **Commenting on diff**
 
@@ -544,23 +476,17 @@
 
 
 ## 1.24
-### GitHub [#3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/issues/3) Could not remove previous comment
-
-**Avoid java-gitlab-api bug to spam logs with exception #3**
-
-
-[6075fa2a131eceb](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6075fa2a131eceb) Tomas Bjerre *2018-09-22 17:02:20*
-
-
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.24**
 
 
 [a71fcab23b86797](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a71fcab23b86797) Tomas Bjerre *2018-09-22 17:02:42*
 
+**Avoid java-gitlab-api bug to spam logs with exception #3**
 
-### No issue
+
+[6075fa2a131eceb](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6075fa2a131eceb) Tomas Bjerre *2018-09-22 17:02:20*
 
 **Documenting parsers as a table**
 
@@ -574,15 +500,12 @@
 
 
 ## 1.23
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.23**
 
 
 [a76c3ce74abfdd3](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a76c3ce74abfdd3) Tomas Bjerre *2018-09-20 23:54:56*
-
-
-### No issue
 
 **Correcting Kotlin parsers**
 
@@ -596,15 +519,12 @@
 
 
 ## 1.22
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.22**
 
 
 [a84ec2d554b8944](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a84ec2d554b8944) Tomas Bjerre *2018-09-20 14:28:22*
-
-
-### No issue
 
 **Kotlin Maven and Gradle parsers**
 
@@ -618,15 +538,12 @@
 
 
 ## 1.21
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.21**
 
 
 [a9d9acf63fb28a1](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a9d9acf63fb28a1) Tomas Bjerre *2018-09-18 10:13:02*
-
-
-### No issue
 
 **Prettier logging**
 
@@ -640,15 +557,12 @@
 
 
 ## 1.20
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.20**
 
 
 [9c011ab36693709](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/9c011ab36693709) Tomas Bjerre *2018-09-17 13:45:44*
-
-
-### No issue
 
 **Fix optional rule in YAMLLint**
 
@@ -662,15 +576,12 @@
 
 
 ## 1.19
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.19**
 
 
 [d01a38d898ee0f5](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/d01a38d898ee0f5) Tomas Bjerre *2018-09-15 08:26:25*
-
-
-### No issue
 
 **YAMLLint**
 
@@ -684,15 +595,12 @@
 
 
 ## 1.18
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.18**
 
 
 [56c4ce1b660da86](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/56c4ce1b660da86) Tomas Bjerre *2018-09-13 05:17:15*
-
-
-### No issue
 
 **Correcting ownerName and CPD**
 
@@ -711,15 +619,12 @@
 
 
 ## 1.17
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.17**
 
 
 [41639697c9559df](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/41639697c9559df) Tomas Bjerre *2018-07-05 05:23:06*
-
-
-### No issue
 
 **Using java-gitlab-api from Central**
 
@@ -733,15 +638,12 @@
 
 
 ## 1.16
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.16**
 
 
 [35f965ef7eb5489](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/35f965ef7eb5489) Tomas Bjerre *2018-07-04 18:26:19*
-
-
-### No issue
 
 **GCC, ARM GCC and Doxygen**
 
@@ -755,15 +657,12 @@
 
 
 ## 1.15
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.15**
 
 
 [1eb5d5e516bdb81](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/1eb5d5e516bdb81) Tomas Bjerre *2018-07-04 12:22:27*
-
-
-### No issue
 
 **Custom template**
 
@@ -777,23 +676,12 @@
 
 
 ## 1.14
-### GitHub #33 
-
-**NullAway #33**
-
-
-[a182b6fb22f0047](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a182b6fb22f0047) Tomas Bjerre *2018-04-14 05:16:22*
-
-
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.14**
 
 
 [34adfbcede1e55b](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/34adfbcede1e55b) Tomas Bjerre *2018-04-22 16:34:35*
-
-
-### No issue
 
 **Changing mergeRequestId to mergeRequestIid**
 
@@ -807,6 +695,11 @@
 
 [7db72586f16cc16](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/7db72586f16cc16) Tomas Bjerre *2018-04-22 16:04:04*
 
+**NullAway #33**
+
+
+[a182b6fb22f0047](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a182b6fb22f0047) Tomas Bjerre *2018-04-14 05:16:22*
+
 **[maven-release-plugin] prepare for next development iteration**
 
 
@@ -814,15 +707,12 @@
 
 
 ## 1.13
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.13**
 
 
 [b2424e5f5d5c7a5](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/b2424e5f5d5c7a5) Tomas Bjerre *2018-02-13 19:25:22*
-
-
-### No issue
 
 **PCLint**
 
@@ -836,15 +726,12 @@
 
 
 ## 1.12
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.12**
 
 
 [88c0953d30e36ca](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/88c0953d30e36ca) Tomas Bjerre *2018-01-14 12:07:19*
-
-
-### No issue
 
 **Google error-prone**
 
@@ -858,15 +745,12 @@
 
 
 ## 1.11
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.11**
 
 
 [07509a2f47c2d81](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/07509a2f47c2d81) Tomas Bjerre *2017-12-31 11:59:56*
-
-
-### No issue
 
 **Relocating to correct Java identifier**
 
@@ -880,15 +764,12 @@
 
 
 ## 1.10
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.10**
 
 
 [ba634ecc27e36ba](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/ba634ecc27e36ba) Tomas Bjerre *2017-12-25 19:57:27*
-
-
-### No issue
 
 **Fixing encoding issues**
 
@@ -907,15 +788,12 @@
 
 
 ## 1.9
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.9**
 
 
 [7e7782940119b08](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/7e7782940119b08) Tomas Bjerre *2017-12-24 17:18:48*
-
-
-### No issue
 
 **Removing final from attributes**
 
@@ -934,15 +812,12 @@
 
 
 ## 1.8
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.8**
 
 
 [65a813c23192b34](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/65a813c23192b34) Tomas Bjerre *2017-12-22 19:00:52*
-
-
-### No issue
 
 **Bumping version to fix faulty release**
 
@@ -961,15 +836,12 @@
 
 
 ## 1.7
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.7**
 
 
 [d69bfee292b7012](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/d69bfee292b7012) Tomas Bjerre *2017-12-22 12:52:21*
-
-
-### No issue
 
 **DocFX parsing JSON with Gson, not ScriptEngine**
 
@@ -988,15 +860,12 @@
 
 
 ## 1.6
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.6**
 
 
 [5983dc1541695ec](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/5983dc1541695ec) Tomas Bjerre *2017-12-21 15:04:36*
-
-
-### No issue
 
 **DocFX**
 
@@ -1015,15 +884,12 @@
 
 
 ## 1.5
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.5**
 
 
 [0b5a5204a9874f2](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/0b5a5204a9874f2) Tomas Bjerre *2017-12-07 16:11:26*
-
-
-### No issue
 
 **Accepting PMD files without ruleset-tag**
 
@@ -1042,15 +908,12 @@
 
 
 ## 1.4
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.4**
 
 
 [33873626ae399c8](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/33873626ae399c8) Tomas Bjerre *2017-12-05 18:27:08*
-
-
-### No issue
 
 **Bintray**
 
@@ -1064,15 +927,12 @@
 
 
 ## 1.3
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.3**
 
 
 [dbe3b5e4ce29bdb](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/dbe3b5e4ce29bdb) Tomas Bjerre *2017-12-05 16:30:14*
-
-
-### No issue
 
 **Doc**
 
@@ -1086,15 +946,12 @@
 
 
 ## 1.2
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.2**
 
 
 [23f5f5eb0575b70](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/23f5f5eb0575b70) Tomas Bjerre *2017-11-19 12:32:33*
-
-
-### No issue
 
 **Doc**
 
@@ -1108,15 +965,12 @@
 
 
 ## 1.1
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.1**
 
 
 [6fc5f8ec7fb896a](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/6fc5f8ec7fb896a) Tomas Bjerre *2017-11-01 18:35:13*
-
-
-### No issue
 
 **Better error message if project cannot be found**
 
@@ -1135,11 +989,16 @@
 
 
 ## 1.0
-### Jira plugin-1 
+### No issue
 
 **[maven-release-plugin] prepare release violation-comments-to-gitlab-maven-plugin-1.0**
 
 
 [a5e90790f300ac6](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/a5e90790f300ac6) Tomas Bjerre *2017-10-28 20:12:28*
+
+**Initial**
+
+
+[e6ff26d9674ba88](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/e6ff26d9674ba88) Tomas Bjerre *2017-10-28 20:12:07*
 
 
