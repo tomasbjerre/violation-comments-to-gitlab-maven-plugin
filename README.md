@@ -1,5 +1,4 @@
 # Violation Comments to GitLab Maven Plugin 
-[![Build Status](https://travis-ci.org/tomasbjerre/violation-comments-to-gitlab-maven-plugin.svg?branch=master)](https://travis-ci.org/tomasbjerre/violation-comments-to-gitlab-maven-plugin)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/violation-comments-to-gitlab-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/violation-comments-to-gitlab-maven-plugin)
 
 This is a Maven plugin for [Violation Comments to GitLab Lib](https://github.com/tomasbjerre/violation-comments-to-gitlab-lib).
