@@ -2,6 +2,14 @@
 
 Changelog of violation-comments-to-gitlab-maven-plugin.
 
+## 1.48.1 (2023-03-26)
+
+## 1.48.0 (2023-03-26)
+
+### Features
+
+-  stepping violations-lib ([870a5](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/870a59d447ffe72) Tomas Bjerre)  
+
 ## 1.47.0 (2022-12-04)
 
 ### Features
