@@ -21,8 +21,8 @@
 	</scm>
 
 	<properties>
-		<violation-comments-lib>1.86.4</violation-comments-lib>
-		<violations-lib>1.148.3</violations-lib>
+		<violation-comments-lib>1.87.0</violation-comments-lib>
+		<violations-lib>1.156.3</violations-lib>
 	</properties>
 
 	<dependencies>
