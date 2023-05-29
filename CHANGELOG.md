@@ -2,6 +2,16 @@
 
 Changelog of violation-comments-to-gitlab-maven-plugin.
 
+## 1.48.2 (2023-05-29)
+
+### Other changes
+
+**Updated pom.xml**
+
+
+[17e07](https://github.com/tomasbjerre/violation-comments-to-gitlab-maven-plugin/commit/17e070be8112717) Vishal Singh *2023-05-27 09:13:56*
+
+
 ## 1.48.1 (2023-03-26)
 
 ## 1.48.0 (2023-03-26)
