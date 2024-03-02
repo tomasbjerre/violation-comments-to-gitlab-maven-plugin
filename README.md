@@ -1,3 +1,11 @@
+There are very few users of this tool, so I am archiving it and referring to:
+
+ - https://github.com/tomasbjerre/violation-comments-to-gitlab-command-line
+ - https://github.com/jenkinsci/violation-comments-to-gitlab-plugin/
+ - https://github.com/tomasbjerre/violations-command-line
+
+-------
+
 # Violation Comments to GitLab Maven Plugin 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/violation-comments-to-gitlab-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/se.bjurr.violations/violation-comments-to-gitlab-maven-plugin)
 
